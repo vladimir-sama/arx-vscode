@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="240pt" src=".arx.png">
+  <img width="240pt" src="./arx.png">
 </p>
 
 # Artemis (ARX) VSCode Extension
