@@ -1,0 +1,45 @@
+{
+  "name": "artemis-language",
+  "displayName": "Artemis (ARX) Language Support",
+  "description": "Syntax highlighting and autocomplete for the Artemis language",
+  "version": "0.0.6",
+  "publisher": "Vladimirsama",
+  "icon": "./arx.png",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "arx",
+        "aliases": [
+          "Arx",
+          "arx"
+        ],
+        "extensions": [
+          ".arx"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "arx",
+        "scopeName": "source.arx",
+        "path": "./syntaxes/arx.tmLanguage.json"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onLanguage:arx"
+  ],
+  "main": "./out/extension.js",
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "@types/vscode": "^1.104.0",
+    "vscode": "^1.1.37"
+  }
+}
