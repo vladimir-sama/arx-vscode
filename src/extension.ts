@@ -12,7 +12,7 @@ interface LibFunction {
 const libFunctions = new Map<string, LibFunction[]>(); // Map<libraryName, Array<LibFunction>>
 
 const ARX_KEYWORDS = [
-  "if", "else", "while", "for", "break", "continue",
+  "if", "else", "while", "for", "break", "continue", "in",
   "list", "string", "int", "float", "bool", "and", "or", "not",
   "return", "class", "using", "this", "void", "any",
   "true", "false", "_init", "_exec"
